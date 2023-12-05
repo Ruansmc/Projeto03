@@ -1,4 +1,8 @@
-button {
-    background-color: green;
-    border: 3cm;
+body{
+    margin: 0px;
+}
+.page {
+    border: 1px solid  green;
+    padding: 88px;
+    margin: 67px;
 }
