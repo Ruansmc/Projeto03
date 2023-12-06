@@ -41,6 +41,14 @@ h1, ul{
     font-family: 'Mulish', sans-serif;
 }   
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
 h1{
     font-size: 49px;
     line-height: 56px;
@@ -61,12 +69,19 @@ p{
     font-size: 14px;
     line-height: 28px;
     color: rgb(157, 156, 156);
+    margin: 40px 0;
 }
 
 button{
+    color: white;
     text-transform: uppercase;
     font-family: 'Open Sans',sans-serif;
-    background-color: rgb(57, 161, 57);
+    background: #69B990;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 32px 15px;
 }
 
 footer {
